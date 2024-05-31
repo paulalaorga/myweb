@@ -1,43 +1,317 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Paula Laorga | Junior Front End Developer</title>
+        <link rel="icon" type="image/png" href="/Emojis/Paumoji.png" hreflang="en-us">
+        <link rel="stylesheet" href="style.css" hreflang="en-us">
+    </head>
+    <body>
+        <div id="site">
+            <div class="switch-wrapper">
+                <div class="sun"></div>
+                <div class="toggle-wrapper">
+                    <input id="switch" type="checkbox"/>
+                    <label for="switch" id="toggle">Toggle</label>
+                </div>
+                <div class="moon"></div>
+            </div>
+            <header class="intro">
+                <h1 class="intro__hello">
+                    Hello! <span class="emoji wave-hand animated"></span>
+                </h1>
+                <h2 class="intro__tagline">
+                    I'm <span class="name">Paula Laorga</span>
+                    , a design-minded junior front-end developer focused on building beautiful interfaces &amp; experiences <span class="emoji cheers"></span>
+                </h2>
+                <h3 class="intro__contact">
+                    <span>Get in touch </span>
+                    <span class="emoji pointingright"></span>
+                    <span>
+                        <a href="mailto:paulalaorga@gmail.com" target="_blank" class="highlight-link">paulalaorga@gmail.com</a>
+                    </span>
+                </h3>
+            </header>
+            <section class="section background" id="background">
+                <div class="section__title">whoami</div>
+                <div class="section__content">
+                    <p>
+                        I currently have the priviledge to collaborate on a predictive maintenance software delevopment project called <a class="f7i-link" href="https://www.f7i.ai/" target="_blank">Factory AI</a>
+                        where I'm working on the development of the Front-End modifying UI features of a heavily coded web application. This role has provided me with valuable experience in navigating intricate component architectures, 
+                        particularly within the React, Typescript, and Node.js frameworks. 
+                    </p>
+                    <p>
+                        I also work part-time as Interior Design Consultant at <a class="king-link" href="https://www.kingliving.com.au" target="_blank">King Living</a>
+                        educating customers in the features and benefits of our range of products and helping them in achieving their residential desing goals.
+                    </p> 
+                    <p>
+                        I recently graduated from <a class="academyXi-link" href="https://study.academyxi.com/front-end-web-development-lp?term=front%20end%20courses%20online&campaignid=19865932743&adgroupid=145144122177&sf_campaign_id=7012t000000cIYN&member_status=Responded&utm_source=google&utm_medium=search&utm_campaign=fe-(phrase)&utm_term=front%20end%20courses%20online&hsa_acc=2700832585&hsa_cam=19865932743&hsa_grp=145144122177&hsa_ad=652130696865&hsa_src=g&hsa_tgt=kwd-375015112742&hsa_kw=front%20end%20courses%20online&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiA7OqrBhD9ARIsAK3UXh2rnY0AByR1GCqRQwOoUwGG4jO2g3e8T0JKLiP9OtEp5UngcRfkcoAaAiozEALw_wcB" target="_blank">Academy Xi</a> 
+                        adquiring the <a class="badge-link" href="https://www.credly.com/badges/337834e8-e23b-4822-8780-c83159d1555c" target="_blank">certification in Front-End development.</a>
+                    </p>
+                    <p>
+                        <strong>When I'm not absorbed by a computer screen</strong>
+                        , I'm practising yoga, meditation, playing Golf, or planning my next trip. 
+                    </p>
+                    <a class="status" href="https://paulalaorga.github.io/Resume 1.pdf" target="_blank"> <div class="status__light"> <div class="status__light__ring"></div> <div class="status__light__led"></div> </div> <div class="status__message">Currently seeking full-time opportunities!</div> </a>
+                </div>
+            </section>
+            <section class="section skillz" id="skillz">
+                <div class="section__title">Skills</div>
+                <div class="section__content">
+                    <div class="skillz">
+                        <div class="skillz__category">
+                            <div class="skillz__category__label">Languages</div>
+                            <ul>
+                                <li class="skillz__category__item">CSS</li>
+                                <li class="skillz__category__item">HTML</li>
+                                <li class="skillz__category__item">JavaScript</li>
+                                <li class="skillz__category__item">Ruby</li>
+                            </ul>
+                        </div>
+                        <div class="skillz__category">
+                            <div class="skillz__category__label">Frameworks</div>
+                            <ul>
+                                <li class="skillz__category__item">Node.js</li>
+                                <li class="skillz__category__item">Typescript</li>
+                                <li class="skillz__category__item">Bootstrap</li>
+                            </ul>
+                        </div>
+                        <div class="skillz__category">
+                            <div class="skillz__category__label">Libraries</div>
+                            <ul>
+                                <li class="skillz__category__item">React</li>
+                                <li class="skillz__category__item">Tailwind CSS</li>
+                            </ul>
+                        </div>
+                        <div class="skillz__category">
+                            <div class="skillz__category__label">Tools</div>
+                            <ul>
+                                <li class="skillz__category__item">Chrome DevTools</li>
+                                <li class="skillz__category__item">Git & GitHub</li>
+                                <li class="skillz__category__item">Postman</li>
+                            </ul>
+                        </div>
+                        <div class="skillz__category">
+                            <div class="skillz__category__label">Design</div>
+                            <ul>
+                                <li class="skillz__category__item">Adobe InDesign</li>
+                                <li class="skillz__category__item">Adobe Photoshop</li>
+                                <li class="skillz__category__item">Canva</li>
+                            </ul>
+                        </div>
+                        <div class="skillz__category">
+                            <div class="skillz__category__label">Marketing</div>
+                            <ul>
+                                <li class="skillz__category__item">Facebook Ads Manager</li>
+                                <li class="skillz__category__item">Google AdSense</li>
+                                <li class="skillz__category__item">Google Analytics</li>
+                            </ul>
+                        </div>
+                        <div class="skillz__category">
+                            <div class="skillz__category__label">CMS</div>
+                            <ul>
+                                <li class="skillz__category__item">Wix</li>
+                                <li class="skillz__category__item">Shopify</li>
+                                <li class="skillz__category__item">WordPress</li>
+                                <li class="skillz__category__item">PrestaShop</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section experience">
+                <div class="section__title">Experience</div>
+                <div class="section__content">
+                    <div class="jobs">
+                        <div class="job">
+                            <div class="time-place">
+                                <div class="job__company">
+                                    <a href="https://www.f7i.ai/" target="_blank">Factory AI</a>
+                                </div>
+                                <div class="job__time">Apr 2024 - Present</div>
+                            </div>
+                            <div class="job__position">Front-End Developer</div>
+                        </div>
+                        <div class="job">
+                            <div class="time-place">
+                                <div class="job__company">
+                                    <a href="https://www.kingliving.com.au/" target="_blank">King Living</a>
+                                </div>
+                                <div class="job__time">Jul 2023 - Present</div>
+                            </div>
+                            <div class="job__position">Design Consultant</div>
+                        </div>
+                        <div class="job">
+                            <div class="time-place">
+                                <div class="job__company">
+                                    <a href="https://www.peteralexander.com.au/" target="_blank">Just Group</a>
+                                </div>
+                                <div class="job__time">Oct 2020 - Oct 2022</div>
+                            </div>
+                            <div class="job__position">Sales Assistant</div>
+                        </div>
+                        <div class="job">
+                            <div class="time-place">
+                                <div class="job__company">
+                                    <a href="https://hydehaciendasydney.com/" target="_blank">Accor Hotels</a>
+                                </div>
+                                <div class="job__time">Jan 2019 - March 2020</div>
+                            </div>
+                            <div class="job__position">Food and Beverage Attendant</div>
+                        </div>
+                        <div class="job">
+                            <div class="time-place">
+                                <div class="job__company">
+                                    <a href="https://www.promarba.es/" target="_blank">Promarba</a>
+                                </div>
+                                <div class="job__time">Jun 2018 - Dec 2018</div>
+                            </div>
+                            <div class="job__position">Junior Account Manager</div>
+                        </div>
+                        <div class="job">
+                            <div class="time-place">
+                                <div class="job__company">
+                                    <a href="https://www.bcw-global.com/" target="_blank">Burson Cohn & Wolfe</a>
+                                </div>
+                                <div class="job__time">Oct 2017 - May 2018</div>
+                            </div>
+                            <div class="job__position">Key Account Assistant</div>
+                        </div>
+                        <div class="job">
+                            <div class="time-place">
+                                <div class="job__company">
+                                    <a href="https://www.mediaset.es/" target="_blank">Mediaset</a>
+                                </div>
+                                <div class="job__time">Oct 2012 - Oct 2014</div>
+                            </div>
+                            <div class="job__position">Production Assistant</div>
+                        </div>
+                    <a href="https://paulalaorga.github.io/Resume 1.pdf" target="_blank" class="arrow-link">View My Resume</a>
+                </div>
+            </section>
+            <section class="section featured-projects" id="featured-projects">
+                <div class="section__title">Featured Projects</div>
+                <div class="section__content">
+                    <div class="project">
+                       <!--  <figure class="project__pic">
+                            <a href="https://paulalaorga.github.io/phase2-project/" target="_blank">
+                                <img src="" alt="">
+                            </a>
+                        </figure> -->
+                       <!--  <figcaption --> 
+                        <div class="project__caption">
+                            <div class="project__name">
+                                <a href="https://www.f7i.ai/" target="_blank">Factory AI</a>
+                            </div>
+                            <p>Predictive maintenance software to prevent Downtime costs on factories</p>
+                            <div class="project__used">
+                                <span class="project__used__item">Typescript</span>
+                                <span class="project__used__item">Next.js</span>
+                                <span class="project__used__item">Node.js</span>
+                                <span class="project__used__item">React</span>
+                                <span class="project__used__item">Tailwind</span>
+                                <span class="project__used__item">AWS</span>
+                            </div>
+                        </div>
+                        <div class="project__caption">
+                            <div class="project__name">
+                                <a href="https://paulalaorga.github.io/pantr-e/" target="_blank">Pantr-e App</a>
+                            </div>
+                            <p>My first web app developed to help users to build a shopping list selecting their choice of recipes from a free API <a class="API-link" href="https://www.themealdb.com/api.php" target="_blank">TheMealDB</a></p>
+                            <div class="project__used">
+                                <span class="project__used__item">HTML</span>
+                                <span class="project__used__item">CSS</span>
+                                <span class="project__used__item">JavaScript</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="project">
+                        <div class="project__caption">
+                            <div class="project__name">
+                                <a href="https://paulalaorga.github.io/phase2-project/" target="_blank">My Menu App</a>
+                            </div>
+                            <p>Second version of my shopping list web app solution, with the addition of a JSON server, hosted using Render, and the functionality of posting customised recipes to use for the shopping list</p>
+                            <div class="project__used">
+                                <span class="project__used__item">HTML</span>
+                                <span class="project__used__item">CSS</span>
+                                <span class="project__used__item">React</span>
+                                <span class="project__used__item">JSON</span>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="section other-projects">
+                <div class="section__title">Other Projects</div>
+                <div class="section__content">
+                    <div class="project">
+                        <div class="project__name">
+                            <a href="https://martalaorga.wordpress.com/" target="_blank" class="arrow-link">Marta Laorga</a>
+                        </div>
+                        <p>Professional website for a clinical psychologist using plug-ins like contact form and doctoralia reviews</p>
+                        <div class="project__used">
+                            <span class="project__used__item">Wordpress</span>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project__name">
+                            <a href="https://www.tejeseda.eu/" target="_blank" class="arrow-link">Tejeseda</a>
+                        </div>
+                        <p>
+                            Assisting in the development of an online fabrics ecommerce, uploading products, debugging, troubleshooting and running tests for <a class="underline-link">SEO</a> and <a class="underline-link">Google Ad Sense</a> campaigns.
+                        </p>
+                        <div class="project__used">
+                            <span class="project__used__item">Shopify</span>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project__name">
+                            <a href="https://www.promarba.es/" target="_blank" class="arrow-link">Promarba</a>
+                        </div>
+                        <p>
+                            Creating and designing a website for a Marketing Services and Logistics company, running <a class="underline-link">SEO</a> tests and <a class="underline-link">Google Ad Sense</a> campaigns.
+                        </p>
+                        <div class="project__used">
+                            <span class="project__used__item">Wix</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__copyright">
+                    <div class="top">
+                        <span>Developed by</span>
+                    </div>
+                    <div class="bottom">
+                        <span>Paula Laorga</span>
+                        <img class="emoji" src="./Emojis/call-me.png" alt="emoji">
+                        <span>2023</span>
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <a href="mailto:paulalaorga@gmail.com" target="_blank" title="email">
+                        <span class="text">email</span>
+                        <img src="/Social/mail.svg" alt="email">
+                    </a>
+                    <a href="https://github.com/paulalaorga" target="_blank" title="github">
+                        <span class="text">github</span>
+                        <img src="/Social/github.svg" alt="github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/paulalaorga" target="_blank" title="linkedin">
+                        <span class="text">linkedin</span>
+                        <img src="/Social/linkedin.svg" alt="linkedin">
+                    </a>
+                </div>
+            </footer>
+            <button id="top-button">
+                <img src="./Emojis/index-pointing-up.png" alt="">
+            </button>
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' type="text/javascript" charset="utf-8"></script>
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script src="./index.js" type="text/javascript" charset="utf-8"></script>
+    </body>
 </html>
