@@ -1,41 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box
@@ -51,6 +13,12 @@ html {
 
 ::selection {
   background: #ffdc00
+}
+
+
+.site {
+  position: relative;
+  overflow-x: scroll;
 }
 
 body,html {
@@ -81,12 +49,12 @@ body.night ::selection,html.night ::selection {
 }
 
 body.night .switch-wrapper .sun,html.night .switch-wrapper .sun {
-  background: url(./Switch/sun-white.png) no-repeat center;
+  background: url(./assets/Switch/sun-white.png) no-repeat center;
   background-size: 100%
 }
 
 body.night .switch-wrapper .moon,html.night .switch-wrapper .moon {
-  background: url(./Switch/moon-white.png) no-repeat center;
+  background: url(./assets/Switch/moon-white.png) no-repeat center;
   background-size: 100%
 }
 
@@ -126,6 +94,17 @@ img {
 strong {
   font-weight: 700;
   color: #36363c
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row-reverse;
+  margin-right: inherit;
+
 }
 
 .emoji {
@@ -273,7 +252,7 @@ strong {
   bottom: 2px;
   margin-left: 15px;
   content: '';
-  background: url(./Emojis/arrow.png) no-repeat center;
+  background: url(./assets/Emojis/arrow.png) no-repeat center;
   background-size: 100%;
   width: 15px;
   height: 15px;
@@ -374,12 +353,12 @@ strong {
 }
 
 .switch-wrapper .sun {
-  background: url(./Switch/sun.png) no-repeat center;
+  background: url(./assets/Switch/sun.png) no-repeat center;
   background-size: 100%
 }
 
 .switch-wrapper .moon {
-  background: url(./Switch/moon.png) no-repeat center;
+  background: url(./assets/Switch/moon.png) no-repeat center;
   background-size: 100%
 }
 
@@ -427,6 +406,10 @@ strong {
   background: #fff;
   border-radius: 100%
 }
+
+
+
+
 
 .intro {
   padding: 120px 100px;
@@ -526,20 +509,20 @@ strong {
   font-weight: 300
 }
 
-.intro__hello .wave-hand {
-  background-image: url(./Emojis/wave-hand.png);
+.intro__hello .waveHand {
+  background-image: url(./assets/Emojis/wave-hand.png);
   margin-left: 10px;
   cursor: pointer
 }
 
-.intro__hello .wave-hand.animated {
+.intro__hello .waveHand.animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both
 }
 
-.intro__hello .wave-hand.wave {
+.intro__hello .waveHand.wave {
   -webkit-animation-name: wave;
   animation-name: wave
 }
@@ -628,7 +611,7 @@ strong {
 }
 
 .intro__tagline .cheers {
-  background-image: url(./Emojis/Cheers.png);
+  background-image: url(./assets/Emojis/Cheers.png);
   position: absolute;
   width: 75px;
   height: 75px;
@@ -646,14 +629,14 @@ strong {
 }
 
 .intro__contact .emoji.pointingright {
-  background-image: url(./Emojis/pointingright.png);
+  background-image: url(./assets/Emojis/pointingright.png);
   margin: 0 5px;
   vertical-align: middle;
   width: 30px;
   height: 30px
 }
 
-.intro__contact .highlight-link {
+.intro__contact .highlightLink {
   transition: all .2s ease-in-out;
   font-weight: 400;
   display: inline-block;
@@ -662,7 +645,7 @@ strong {
   box-shadow: inset 0 -3px 0 #007bff
 }
 
-.intro__contact .highlight-link:hover {
+.intro__contact .highlightLink:hover {
   -webkit-box-shadow: inset 0 -33px 0 0 #007bff;
   box-shadow: inset 0 -33px 0 0 #007bff;
   color: #fff
