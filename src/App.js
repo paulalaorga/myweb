@@ -1,13 +1,12 @@
-import React from 'react';
-import HeaderComp from './components/HeaderComp';
+import './App.css';
+import HeroPage from './components/HeroPage';
+
 
 function App() {
-
-
   return (
-      <div id="site">
-        <HeaderComp />
-      </div>
+    <div className="App">
+   <HeroPage />
+    </div>
   );
 }
 

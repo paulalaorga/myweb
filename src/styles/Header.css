@@ -1,0 +1,71 @@
+.Header {
+    height: 182px;
+    display: grid;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #333;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Defines the grid columns */
+}
+
+
+.Header-logo {
+    height: 50px;
+    top: 50px;
+    margin-left: 50px;
+    max-width: fit-content;
+    align-self: center;
+    grid-column: 1 / span 1;
+    position: fixed;
+
+}
+
+
+.Title {
+    font-size: 6em;
+    color:#524b4b;
+    text-align: center;
+    font-weight: 500;
+    grid-column: 2 / span 3;
+    border: #fdfcfc 1px solid;
+    border-top: none;
+    min-height: 100%;
+    align-content: center;
+    margin-bottom: auto;
+ 
+}
+
+.Title h1 {
+    position: absolute;
+    bottom: 0;
+   
+}
+
+.Header-menu {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    margin-right: 50px;
+    grid-column: 5;
+    justify-self: flex-end;
+    align-items: center;
+    position: fixed;
+    
+}
+
+.Header-menu div {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+    margin-left: 10px;
+    
+}
+
+.Header-menu div:hover {
+    color: #d62f2f;
+}
+
