@@ -1,0 +1,139 @@
+.Projects {
+    justify-content: center;
+  }
+  
+  .project1 {
+    display: grid;
+    border: #f0d1c5 1px solid;
+    grid-template-columns: repeat(5, 1fr);
+    background: linear-gradient(to bottom, #f0d1c5, #fbfbfb); /* Gradient background */
+ 
+}
+
+  .project-container1 {
+      display: contents; /* Ensures the children participate in the grid layout */
+      border: #f0d1c5 1px solid;
+      border-bottom: none;
+    }
+  
+  .project-desc1 {
+      grid-column: 2 / 3; /* Ensure it spans the correct columns */
+      border: #f0d1c5 1px solid;
+      border-bottom: none;
+    }
+  
+  .project-desc1 h2 {
+      font-size: 1.5em;
+      color: #d62f2f;
+  }
+
+  .project-desc1 p {
+    font-size: 21px;
+    
+}
+  
+  .project-tech1 {
+      border-top: none;
+  }
+  
+  .project-img1 {
+      grid-column: 3 / 5;
+      border: #f0d1c5 1px solid;
+      border-left: none;
+      border-bottom: none;
+  }
+  .project-img1 img {
+    object-fit: cover;
+    width: 100%;
+}
+.project2 {
+    display: grid;
+    border: #f0d1c5 1px solid;
+    border-top: none;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .project-container2 {
+      display: contents; /* Ensures the children participate in the grid layout */
+      border-bottom: none;
+    }
+  
+  .project-desc2 {
+      grid-column: 4 / 5; /* Ensure it spans the correct columns */
+      border: #f0d1c5 1px solid;
+      border-top: none;
+      border-bottom: none;
+    }
+  
+  .project-desc2 h2 {
+      font-size: 1.5em;
+      color: #d62f2f;
+  }
+
+  .project-desc2 p {
+    font-size: 21px;
+    
+}
+  
+  .project-tech2 {
+      border-top: none;
+  }
+  
+  .project-img2 {
+      grid-column: 2 / 4;
+      border: #f0d1c5 1px solid;
+      border-top: none;
+      border-right: none;
+      border-bottom: none;
+  }
+  .project-img2 img {
+    object-fit: cover;
+    width: 100%;
+}
+.project3 {
+    display: grid;
+    border: #f0d1c5 1px solid;
+    grid-template-columns: repeat(5, 1fr);
+    border-top: none;
+  }
+
+  .project-container3 {
+      display: contents; /* Ensures the children participate in the grid layout */
+      border: #f0d1c5 1px solid;
+      border-bottom: none;
+      border-top: none;
+    }
+  
+  .project-desc3 {
+      grid-column: 2 / 3; /* Ensure it spans the correct columns */
+      border: #f0d1c5 1px solid;
+      border-bottom: none;
+      border-top: none;
+    }
+  
+  .project-desc3 h2 {
+      font-size: 1.5em;
+      color: #d62f2f;
+  }
+
+  .project-desc3 p {
+    font-size: 21px;
+    
+}
+  
+  .project-tech3 {
+      border-top: none;
+  }
+  
+  .project-img3 {
+      grid-column: 3 / 5;
+      border: #f0d1c5 1px solid;
+      border-left: none;
+      border-bottom: none;
+      border-top: none;
+  }
+  .project-img3 img {
+    object-fit: cover;
+    width: 100%;
+}
+  
