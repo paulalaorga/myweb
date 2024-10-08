@@ -1,24 +1,25 @@
 import React from "react";
 import "../styles/Projects.css";
-import gif from "../img/gif.gif";
+import FactoryAI from "../img/FactoryAI.webp";
 
 export default function Projects() {
   return (
     <div className="Projects">
       <div className="project1">
         <div className="project-desc1">
-          <h2>Project 1</h2>
+          <h2>Factory AI</h2>
           <div className="project-tech1">
-            <p>Project description</p>
+            <p>Predictive maintenance software for factories</p>
+            <h3>Saas platform | NEXT.js | tremor | AWS</h3>
           </div>
         </div>
         <div className="project-img1">
-          <img src={gif} alt="project" />
+          <img src={FactoryAI} alt="project" />
         </div>
       </div>
       <div className="project2">
         <div className="project-img2">
-          <img src={gif} alt="project" />
+          <img src={FactoryAI} alt="project" />
         </div>
         <div className="project-desc2">
           <h2>Project 1</h2>
@@ -35,7 +36,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project-img3">
-          <img src={gif} alt="project" />
+          <img src={FactoryAI} alt="project" />
         </div>
       </div>
     </div>
